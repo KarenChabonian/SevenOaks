@@ -1,0 +1,16 @@
+.btn {
+    color: #f3eeea;
+    font-family: $base-font;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+
+    &:hover {
+        background: #616060;
+        color: #4999af;
+        cursor: pointer;    
+    }
+}  
+

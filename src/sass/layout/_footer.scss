@@ -1,0 +1,116 @@
+.footer{
+    background: #525252 ;
+    padding-bottom: 34px;
+}
+
+.footer__container {
+       @media screen and (max-width: 1024px){
+           width: 100%;
+    }
+}
+.footer__block {
+    
+    @media screen and (max-width: 1024px){
+            margin-top: 20px;
+    }
+
+      @media screen and (max-width: 768px){
+        text-align: left;   
+    }
+}
+.footer__address-wrap {
+    width: 100%;    
+    @include flex-row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px 0 40px;
+    border-bottom: 1px solid #6b6b6a;
+    
+
+        @media screen and (max-width: 1024px){
+            flex-flow: row wrap;
+            justify-content: space-around;
+            padding: 0 0 40px 0;
+            width: 100%;
+        }
+        @media screen and (max-width: 768px){
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+}
+.footer__title {
+    padding: 0;
+    margin: 0 0 36px 0;
+    max-width: 286px;
+    line-height: 1.25rem;
+    color: #f3eeea;
+    font-family: $base-font;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-transform: uppercase;
+
+     @media screen and (max-width: 1024px){
+            margin-bottom: 27px;
+    }
+      @media screen and (max-width: 768px){
+        text-align: center;
+    }
+
+    &--email{
+        margin-bottom: 27px;
+    }
+}
+
+.footer__shift-time {
+    padding: 0;
+    margin: 0 0 7px 0;
+    line-height: 18px;
+    color: #f3eeea;
+    font-family: "Proxima Nova Lt";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer__shift-text {
+    padding: 0;
+    margin: 0;
+    max-width: 256px;
+    line-height: 10px;
+    color: #b3b3b3;
+    font-family: $base-font;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+.footer__btn {
+    background: #4999af;
+    padding: 9px 77px;
+     @media screen and (max-width: 340px){
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.footer__copy {
+    width: 100%;
+    margin: 0;
+    padding-top: 18px;
+}
+
+
+
+
+.footer__copy-text {
+    padding: 18px 0 0 0;
+    margin: 0;
+        height: 13px;
+    color: #b3b3b3;
+    font-family: "Myriad Pro";
+    font-size: 0.75rem;
+    font-weight: 400;
+
+      @media screen and (max-width: 768px){
+        text-align: center;
+    }
+}
